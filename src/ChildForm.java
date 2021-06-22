@@ -1,5 +1,3 @@
-
-
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -251,27 +249,26 @@ private  PreparedStatement ps;
     }// </editor-fold>//GEN-END:initComponents
 
     private void t3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t3ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t3ActionPerformed
 
     private void t2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t2ActionPerformed
 
     private void t4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t4ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t4ActionPerformed
 
     private void t5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t5ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t5ActionPerformed
 
     private void t6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t6ActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_t6ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
         JFileChooser chooser=new JFileChooser();
         chooser.showOpenDialog(null);
         File f=chooser.getSelectedFile();
@@ -297,7 +294,6 @@ private  PreparedStatement ps;
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-         // TODO add your handling code here:
         String sql="insert into child values(?,?,?,?,?,?,?)";
         String id=t1.getText();
         String name=t2.getText();

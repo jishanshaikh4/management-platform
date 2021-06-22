@@ -34,7 +34,7 @@ public class StaffForm extends javax.swing.JFrame {
        //    stmt=con.createStatement();
        } catch (Exception ex) {
                 System.out.println(ex);
-             }
+       }
     }
 
     /**
@@ -223,21 +223,17 @@ public class StaffForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void t2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t2ActionPerformed
 
     private void t3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t3ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // String Regex="^[a-zA-Z0-9_+&*-]+(?:\\."+"[a-zA-Z0-9_+&*-]+)*@"+"*(?:^[a-zA-Z0-9-]+\\.)+[a-z"+"A-Z]{2,7}$";
-         
-         
-  
-        
         try {
-           // TODO add your handling code here:
+           
            String idno=t6.getText();
            String name=t1.getText();
            String mobileno=t2.getText();
@@ -247,7 +243,7 @@ public class StaffForm extends javax.swing.JFrame {
            
            String pass="null";
            String user="null";
-                     if(idno.length()>6)
+           if(idno.length()>6)
            {
                
                jLabel8.setText("at most 6 digit");
@@ -273,7 +269,7 @@ public class StaffForm extends javax.swing.JFrame {
            jLabel10.setText("correct email");
            }*/
 
-                int id=(Integer.parseInt(idno)); 
+           int id=(Integer.parseInt(idno)); 
            ps.setInt(1, Integer.parseInt(idno));
            ps.setString(2, pass);
            ps.setString(3,name);
@@ -310,15 +306,15 @@ public class StaffForm extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void t6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t6ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t6ActionPerformed
 
     private void t4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t4ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_t4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        
         String id=t6.getText();
      
        try {     
@@ -345,7 +341,7 @@ public class StaffForm extends javax.swing.JFrame {
                 ps.setString(5,email);
 
 
-                  ps.executeUpdate();
+                 ps.executeUpdate();
 
                  t1.setText("");
                  t2.setText("");
